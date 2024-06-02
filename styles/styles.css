@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  background-color: #282b36;
+}
+#container {
+  height: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Fira Code", monospace, Raleway, "san-serif";
+}
+pre {
+  font-size: 25px;
+  background: linear-gradient(to right top, #4d36ff, #00e78b);
+  color: transparent;
+  -webkit-background-clip: text;
+}
