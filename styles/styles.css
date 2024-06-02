@@ -1,3 +1,5 @@
+@import url("//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-full.css");
+
 :root {
   --background: #282b36;
   --font: #282b36;
@@ -12,12 +14,13 @@ body {
   min-width: 100%;
   background-color: var(--background);
   color: var(--font);
+  font-family: "D2Coding", monospace !important;
 }
 #container {
   /* height: 100%; */
   font-size: 20px;
   font-weight: 400;
-  font-family: "Fira Code", monospace, Raleway, "san-serif";
+  /* font-family: "Fira Code", monospace, Raleway, "san-serif"; */
 }
 pre {
   font-size: 25px;
@@ -26,7 +29,7 @@ pre {
   -webkit-background-clip: text;
 }
 .presentation {
-  text-align: center;
+  /* text-align: center; */
   margin: 0 auto;
   width: 100%;
 }
@@ -34,6 +37,7 @@ pre {
   display: flex;
   position: relative;
   color: #59f78e;
+  font-size: 125%;
 }
 input {
   border: none;
@@ -72,6 +76,7 @@ input:focus {
   display: flex;
   position: relative;
   font-weight: 600;
+  font-size: 125%;
 }
 .user {
   color: #59f78e;
