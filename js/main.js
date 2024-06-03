@@ -4,7 +4,7 @@ const terminal = document.getElementById("terminal");
 const input = document.getElementById("input");
 let inputCounter = 0;
 
-container.addEventListener("click", () => {
+document.body.addEventListener("click", () => {
   input.focus();
 });
 
@@ -135,9 +135,11 @@ const checkForCommand = () => {
     case "algo":
       addMultiLine(algo, "new-line");
       break;
-    // case "blog":
-    //   addMultiLine(blog, "new-line");
-    //   break;
+    case "all":
+      addMultiLine(all, "new-line");
+      break;
+    default:
+      addMultiLine(notfound, "new-line");
   }
 };
 

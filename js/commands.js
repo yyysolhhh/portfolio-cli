@@ -1,4 +1,5 @@
 const help = [
+  "all        한번에 보기",
   "whois      소개",
   "github     깃허브 주소",
   "email      이메일 주소",
@@ -20,3 +21,7 @@ const projects = [
 ];
 // const study = ["<a target='_blank' href='https://github.com/yyysolhhh'>Study</a>"];
 const algo = ["<a target='_blank' href='https://github.com/yyysolhhh/PS_study'>Algorithm study</a>"];
+
+// const all = whois + github + email + blog + projects + algo;
+// const notfound = [`command not found: ${input.value}`];
+const notfound = ["command not found"];
