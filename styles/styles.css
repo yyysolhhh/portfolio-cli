@@ -87,10 +87,10 @@ input:focus {
 }
 a {
   outline: none;
-  /* color: ; */
+  color: #9aedfe;
   text-decoration: none;
 }
 a:hover {
   background-color: #4d36ff;
-  color: #00e78b;
+  color: #9aedfe;
 }

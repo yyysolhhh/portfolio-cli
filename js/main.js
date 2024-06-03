@@ -108,15 +108,36 @@ const clear = () => {
 
 const checkForCommand = () => {
   switch (input.value) {
+    case "clear":
+      clear();
+      break;
     case "help":
       addMultiLine(help, "new-line");
       break;
     case "whois":
       addMultiLine(whois, "new-line");
       break;
-    case "clear":
-      clear();
+    case "github":
+      addMultiLine(github, "new-line");
       break;
+    case "email":
+      addMultiLine(email, "new-line");
+      break;
+    case "blog":
+      addMultiLine(blog, "new-line");
+      break;
+    case "projects":
+      addMultiLine(projects, "new-line");
+      break;
+    case "study":
+      addMultiLine(study, "new-line");
+      break;
+    case "algo":
+      addMultiLine(algo, "new-line");
+      break;
+    // case "blog":
+    //   addMultiLine(blog, "new-line");
+    //   break;
   }
 };
 
