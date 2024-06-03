@@ -2,7 +2,7 @@
 
 :root {
   --background: #282b36;
-  --font: #282b36;
+  --font: #ebebeb;
 }
 * {
   box-sizing: border-box;
@@ -50,6 +50,7 @@ input {
   margin: 0;
   margin-left: 8px;
   height: 24px;
+  color: var(--font);
 }
 input:focus {
   caret-color: transparent;
@@ -70,7 +71,7 @@ input:focus {
   background-color: #cecece;
   opacity: 1;
   z-index: 5;
-  /* animation: blinkAnimation 1s linear infinite; */
+  animation: blinkAnimation 1s linear infinite;
 }
 .prompt {
   display: flex;
@@ -78,15 +79,15 @@ input:focus {
   font-weight: 600;
   font-size: 125%;
 }
-.user {
+.green {
   color: #59f78e;
 }
-.path {
+.purple {
   color: #caa9fb;
 }
 a {
   outline: none;
-  color: ;
+  /* color: ; */
   text-decoration: none;
 }
 a:hover {
