@@ -29,7 +29,7 @@ pre {
   -webkit-background-clip: text;
 }
 .presentation {
-  text-align: center;
+  /* text-align: center; */
   /* margin: 0 auto; */
   width: 100%;
 }

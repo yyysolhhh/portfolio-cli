@@ -111,6 +111,9 @@ const checkForCommand = () => {
     case "clear":
       clear();
       break;
+    case "ls":
+      addMultiLine(ls, "new-line");
+      break;
     case "help":
       addMultiLine(help, "new-line");
       break;
